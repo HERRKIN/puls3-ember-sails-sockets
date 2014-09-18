@@ -1,3 +1,21 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+   <header>
+            <figure id="header_logo">
+                <a href=""><img src="assets/img/logo.png" alt="logo"></a>
+            </figure>
+            <div id="header_titulo">
+                <h2>Puls3 - Dolor Sit amet</h2>
+                <nav>
+                    <ul>
+                       <li> {{#linkTo 'index'}}Home{{/linkTo}} </li>
+                        <a href="https://github.com/herrkin/puls3-emberjs"><li>GitHub</li></a>
+                    </ul>
+                </nav>
+            </div>
+            <figure id="header_user" >
+               <a href=""><img src="assets/img/user.jpg"></a> 
+            </figure>
+        </header>   
 
-{{outlet}}
+    <section id="contenido">
+      {{outlet}}
+    </section>
